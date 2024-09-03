@@ -1,5 +1,8 @@
 ## Getting Started
 
+React is a popular JavaScript library for building user interfaces.
+Included Framer Motion with Tailwind CSS
+
 First, run the development server:
 
 ```bash
