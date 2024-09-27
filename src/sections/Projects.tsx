@@ -1,6 +1,5 @@
-//import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-//import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-///import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+
+import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -12,6 +11,18 @@ import chat from "@/assets/images/chatbot.png";
 import seo from "@/assets/images/seo.png";
 
 const portfolioProjects = [
+  {
+    company: "Ravi",
+    year: "2024",
+    title: "AI-SEO-Page",
+    results: [
+      { title: "Built with React, Next.js, and Tailwind CSS, featuring interactive Framer Motion animations and Lottie icons." },
+      { title: "Ensured seamless user experience across devices with modern UI/UX practices." },
+      { title: "Optimized for SEO and accessibility, adhering to web standards." },
+    ],
+    link: "https://ai-seo-page-wine.vercel.app/",
+    image: aiStartupLandingPage,
+  },
   {
     company: "Ravi",
     year: "2024",
