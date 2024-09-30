@@ -9,6 +9,7 @@ import { Card } from "@/components/Card";
 import trie from "@/assets/images/dna.jpg";
 import chat from "@/assets/images/chatbot.png";
 import seo from "@/assets/images/seo.png";
+import DNA from "@/assets/images/DNA.png";
 
 const portfolioProjects = [
   {
@@ -33,7 +34,7 @@ const portfolioProjects = [
       { title: "Features a command-line interface for seamless interaction and search functionality." },
     ],
     link: "https://github.com/ravi1215/DNA-Sequence-trie-search",
-    image: trie,
+    image: DNA,
   },
   {
     company: "Ravi",
