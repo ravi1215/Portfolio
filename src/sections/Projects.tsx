@@ -29,9 +29,9 @@ const portfolioProjects = [
     year: "2024",
     title: "DNA Sequence Trie Search",
     results: [
-      { title: "Implements a Trie structure to store and manage DNA sequences from the latest NCBI Homo sapiens dataset." },
-      { title: "Supports both exact and approximate sequence matching, allowing up to 2 mismatches for greater flexibility." },
-      { title: "Features a command-line interface for seamless interaction and search functionality." },
+      { title: "Implements a Trie structure to manage DNA sequences from the latest NCBI Homo sapiens dataset." },
+      { title: "Supports exact and approximate matching with up to 2 mismatches for added flexibility." },
+      { title: "Features both command-line and QT-based graphical user interfaces for seamless interaction and search functionality."" },
     ],
     link: "https://github.com/ravi1215/DNA-Sequence-trie-search",
     image: DNA,
