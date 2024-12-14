@@ -10,8 +10,22 @@ import trie from "@/assets/images/dna.jpg";
 import chat from "@/assets/images/chatbot.png";
 import seo from "@/assets/images/seo.png";
 import DNA from "@/assets/images/DNA.png";
+import url from "@/assets/images/url.png";
 
 const portfolioProjects = [
+  {
+    company: "Ravi",
+    year: "2024",
+    title: "URL Shortener",
+    results: [
+      { title: "Built a full-stack URL shortener using Node.js, MongoDB, React, and Tailwind CSS." },
+      { title: "Generates unique short URLs and displays QR codes for easy sharing." },
+      { title: "Supports dynamic URL shortening with custom error handling and validation." },
+      { title: "Tracks URL clicks and provides real-time analytics for each shortened link." },
+    ],
+    link: "https://github.com/ravi1215/url-shortener",
+    image: url,
+  },
   {
     company: "Ravi",
     year: "2024",
