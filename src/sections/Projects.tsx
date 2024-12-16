@@ -11,8 +11,21 @@ import chat from "@/assets/images/chatbot.png";
 import seo from "@/assets/images/seo.png";
 import DNA from "@/assets/images/DNA.png";
 import url from "@/assets/images/url.png";
+import imdb from "@/assets/images/imdb.png";
 
 const portfolioProjects = [
+ {
+    company: "Ravi",
+    year: "2024",
+    title: "IMDB Movie Review Sentiment Analysis",
+    results: [
+      { title: "Built a machine learning model to classify IMDb movie reviews as positive or negative with high accuracy." },
+      { title: "Deployed the sentiment analysis model as an interactive web app using Gradio." },
+      { title: "Enabled seamless user interaction with real-time sentiment predictions and an intuitive interface" },
+    ],
+    link: "https://huggingface.co/spaces/Ravi1227/movie-sentiment-analysis",
+    image: imdb,
+  },
   {
     company: "Ravi",
     year: "2024",
