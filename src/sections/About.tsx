@@ -14,6 +14,13 @@ import NodeJs from "@/assets/icons/node-js-svgrepo-com.svg";
 import Framer from "@/assets/icons/framer-svgrepo-com.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
+import api from "@/assets/icons/api-page-svgrepo-com.svg";
+import express from "@/assets/icons/ex-kernel-manager-svgrepo-com.svg";
+import mongoDB from "@/assets/icons/mongodb-svgrepo-com.svg";
+import mysql from "@/assets/icons/mysql-svgrepo-com .svg";
+import php from "@/assets/icons/php-elephant-svgrepo-com.svg";
+import python from "@/assets/icons/python-svgrepo-com.svg";
+import typescript from "@/assets/icons/typescript-svgrepo-com.svg";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -56,6 +63,34 @@ const toolboxItems = [
     title: "Node.Js",
     iconType: NodeJs,
   },
+  {
+    title: "API",
+    iconType: api,
+  },
+  {
+    title: "Express",
+    iconType: express,
+  },
+  {
+    title: "MongoDB",
+    iconType: mongoDB,
+  },
+  {
+    title: "MySQL",
+    iconType: mysql,
+  },
+  {
+    title: "PHP",
+    iconType: php,
+  },
+  {
+    title: "Python",
+    iconType: python,
+  },
+  {
+    title: "Typescript",
+    iconType: typescript,
+  }
 ]
 
 const hobbies = [
@@ -131,11 +166,11 @@ export const AboutSection = () => {
                  digital experiences."
                 className=""
               />
-              <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]" />
+              <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:50s]" />
               <ToolboxItems
                 items={toolboxItems}
                 className="mt-6"
-                itemsWrapperClassName="animate-move-right [animation-duration:15s]"
+                itemsWrapperClassName="animate-move-right [animation-duration:25s]"
               />
             </Card>
           </div>
