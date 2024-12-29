@@ -12,9 +12,48 @@ import seo from "@/assets/images/seo.png";
 import DNA from "@/assets/images/DNA.png";
 import url from "@/assets/images/url.png";
 import imdb from "@/assets/images/imdb.png";
+import aijob from "@/assets/images/aijob.png";
+import mentalhealth from "@/assets/images/mentalhealth.png";
+import crop from "@/assets/images/crop.png";
 
 const portfolioProjects = [
- {
+  {
+  company: "Ravi",
+  year: "2024",
+  title: "Crop Management System",
+  results: [
+    { title: "Crop Recommendation System suggests the best crops based on environmental and soil conditions using machine learning models." },
+    { title: "Crop Yield Prediction System predicts crop yield by analyzing environmental and agricultural data through regression models." },
+    { title: "Flask Web App combines both systems for easy interaction and predictions." },
+  ],
+  link: "https://crop-management-system-yms8.onrender.com/",
+  image: crop,
+  },
+  {
+    company: "Ravi",
+    year: "2024",
+    title: "Mental Health Bert",
+    results: [
+      { title: "BERT for Mental Health leverages transformer architecture to analyze text data for early mental health detection." },
+      { title: "Domain-Specific Training fine-tunes BERT on mental health datasets to improve detection accuracy." },
+      { title: "Early Intervention focuses on identifying mental health issues through text analysis for proactive support." },
+    ],
+    link: "https://huggingface.co/spaces/Ravi1227/Mental_Health_Bert",
+    image: mentalhealth,
+  },
+  {
+    company: "Ravi",
+    year: "2024",
+    title: "AiJobSearch",
+    results: [
+      { title: "AI Job Search Assistant scrapes jobs, matches skills, and generates interview questions." },
+      { title: "Job Scraping & Analysis extracts key job details and analyzes skill alignment with user portfolios." },
+      { title: "Interview Preparation generates relevant, role-specific interview questions based on job descriptions." },
+    ],
+    link: "https://huggingface.co/spaces/Ravi1227/AiJobSearch",
+    image: aijob,
+  },
+  {
     company: "Ravi",
     year: "2024",
     title: "IMDB Movie Review Sentiment Analysis",
