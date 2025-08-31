@@ -11,11 +11,11 @@ const footerLinks = [
   },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1E3OrvV-bshIvnYYbdSvtSz25jf4lf-5J/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1o0NwdVYL3dYvD5tnss_5-TloQm8kNKgP/view?usp=sharing",
   },
   {
     title: "LeetCode",
-    href: "https://leetcode.com/u/Ravi1215/",
+    href: "https://leetcode.com/u/Ravi1227/",
   },
 ];
 
