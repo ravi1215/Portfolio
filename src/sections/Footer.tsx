@@ -11,7 +11,7 @@ const footerLinks = [
   },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1DKt9e-d3OErrRoHlHyOFn6RfA8hUJcit/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1MoE-qajWX-rBfMGx3sS_TzUVg6YksgOF/view?usp=sharing",
   },
   {
     title: "LeetCode",
