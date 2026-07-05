@@ -2,15 +2,44 @@ import { twMerge } from "tailwind-merge";
 import { TechIcon } from "./TechIcon";
 import { Fragment } from "react";
 
+type ToolboxItem = {
+  title: string;
+  iconType: React.ElementType;
+};
+
+export const ProminentToolboxItems = ({
+  items,
+  className,
+}: {
+  items: ToolboxItem[];
+  className?: string;
+}) => {
+  return (
+    <div
+      className={twMerge(
+        "grid grid-cols-2 md:grid-cols-4 gap-3 px-6 md:px-10 pb-4",
+        className
+      )}
+    >
+      {items.map((item) => (
+        <div
+          key={item.title}
+          className="inline-flex items-center gap-3 py-3 px-3 md:px-4 rounded-xl outline outline-2 outline-emerald-300/30 bg-gradient-to-br from-emerald-300/10 to-sky-400/10"
+        >
+          <TechIcon component={item.iconType} />
+          <span className="font-semibold text-sm md:text-base">{item.title}</span>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export const ToolboxItems = ({
   items,
   className,
   itemsWrapperClassName,
 }: {
-  items: {
-    title: string;
-    iconType: React.ElementType;
-  }[];
+  items: ToolboxItem[];
   className?: string;
   itemsWrapperClassName?: string;
 }) => {

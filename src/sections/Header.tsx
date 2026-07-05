@@ -7,8 +7,14 @@ export const Header = () => {
     <Link href="/" className="nav-item">
         Home
     </Link>
+    <Link href="#experience" className="nav-item">
+        Experience
+    </Link>
     <Link href="#Project" className="nav-item">
         Projects
+    </Link>
+    <Link href="#skills" className="nav-item">
+        Skills
     </Link>
     <Link href="#about" className="nav-item">
         About
