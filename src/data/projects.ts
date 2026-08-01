@@ -39,7 +39,7 @@ export const featuredProjects: Project[] = [
       "Built with validation, error handling, and a responsive UI.",
     ],
     techStack: ["Node.js", "Express", "MongoDB", "React", "Tailwind CSS"],
-    githubUrl: "https://github.com/ravi1215/url-shortener",
+    githubUrl: "https://url-shortener-one-beige.vercel.app/",
     image: url,
   },
   {
