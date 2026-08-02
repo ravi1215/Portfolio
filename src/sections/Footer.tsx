@@ -11,7 +11,7 @@ const footerLinks = [
   },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1SVMnK38l32ZJYYEHcXsXxaC6nsADG0WI/view?usp=sharing",
+    href: "https://ravipandeyresume2026.s3.ap-south-1.amazonaws.com/Resume_.pdf",
   },
   {
     title: "LeetCode",
